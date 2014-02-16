@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/2.0"
+        id        = "com.tickTackHack.PriceCrazy"
+        versionCode="1" 
+        version   = "0.1.0">
+
+    <!-- versionCode is optional and Android only -->
+	
+    <name>PriceCrazy</name>
+
+    <description>
+        Get the real deal on prices when grocery shopping. This is an Android app to easily track and compare fluctuations on items bought regularly.
+    </description>
+
+    <author href="https://j-mal.com" email="github.congos@xoxy.net">
+        Jamal Theodore
+    </author>
+    
+    
+	<gap:platform name="android" />
+	
+    <preference name="permissions" value="none"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+
+	<content src="index.html" />
+	<preference name="WebViewBounce" value="true" />
+	
+	<preference name="BackgroundColor" value="0xEE00FF"/>
+	<preference name="LoadingDialog" value="Loading. Please wait..."/>
+	<preference name="LoadUrlTimeoutValue" value="20000"/>
+</widget>
